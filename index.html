@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Git Trabalinho</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <script type="text/javascript">
+
+
+        var exibirSobre = function () {
+            divSobre = document.querySelector("#sobre");
+            divAbilidades = document.querySelector("#abilidades");
+            divFormacao = document.querySelector("#formacao");
+            divHobbies = document.querySelector("#hobbies");
+            divBooks = document.querySelector("#books");
+
+            divSobre.style.display = "block";
+            divAbilidades.style.display = "none";
+            divFormacao.style.display = "none";
+            divHobbies.style.display = "none";
+            divBooks.style.display = "none";
+        }
+
+        var exibirAbilidades = function () {
+            divSobre = document.querySelector("#sobre");
+            divAbilidades = document.querySelector("#abilidades");
+            divFormacao = document.querySelector("#formacao");
+            divHobbies = document.querySelector("#hobbies");
+            divBooks = document.querySelector("#books");
+
+            divSobre.style.display = "none";
+            divAbilidades.style.display = "block";
+            divFormacao.style.display = "none";
+            divHobbies.style.display = "none";
+            divBooks.style.display = "none";
+        }
+
+        var exibirFormacao = function () {
+            divSobre = document.querySelector("#sobre");
+            divAbilidades = document.querySelector("#abilidades");
+            divFormacao = document.querySelector("#formacao");
+            divHobbies = document.querySelector("#hobbies");
+            divBooks = document.querySelector("#books");
+
+            divSobre.style.display = "none";
+            divAbilidades.style.display = "none";
+            divFormacao.style.display = "block";
+            divHobbies.style.display = "none";
+            divBooks.style.display = "none";
+        }
+
+        var exibirHobbies = function () {
+            divSobre = document.querySelector("#sobre");
+            divAbilidades = document.querySelector("#abilidades");
+            divFormacao = document.querySelector("#formacao");
+            divHobbies = document.querySelector("#hobbies");
+            divBooks = document.querySelector("#books");
+
+            divSobre.style.display = "none";
+            divAbilidades.style.display = "none";
+            divFormacao.style.display = "none";
+            divHobbies.style.display = "block";
+            divBooks.style.display = "none";
+        }
+
+        var exibirBooks = function () {
+            divSobre = document.querySelector("#sobre");
+            divAbilidades = document.querySelector("#abilidades");
+            divFormacao = document.querySelector("#formacao");
+            divHobbies = document.querySelector("#hobbies");
+            divBooks = document.querySelector("#books");
+
+            divSobre.style.display = "none";
+            divAbilidades.style.display = "none";
+            divFormacao.style.display = "none";
+            divHobbies.style.display = "none";
+            divBooks.style.display = "block";
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3 borda">
+                <div class="foto">
+                    <img src="assets/images/6379da0789dc43aaac80e6b396536d11.jpg"
+                        alt="filho do endearvor esqueci o nome" width="100px" height="100px" class="borda3 bb">
+                </div>
+                <div>
+                    <button onclick="exibirSobre()" class="botao">Sobre</button>
+                </div>
+                <div>
+                    <button onclick="exibirAbilidades()" class="botao">Abilidades</button>
+                </div>
+                <div>
+                    <button onclick="exibirFormacao()" class="botao">Formação</button>
+                </div>
+                <div>
+                    <button onclick="exibirHobbies()" class="botao">Hobbies</button>
+                </div>
+                <div>
+                    <button onclick="exibirBooks()" class="botao">Books</button>
+                </div>
+                <div class="foto2">
+                    <a href="https://github.com/" class="cc">GitHub</a>
+                    <img src="assets/images/R7ac6948df1902f3a1259b11317cb7077.png" alt="git hub" width="30px"
+                        height="30px" class="">
+                    <a href="https://br.linkedin.com/" class="cc">Linkedin</a>
+                    <img src="assets/images/1288510.png" alt="linkedin" width="25px" height="25px" class="">
+                    <a href="https://www.youtube.com/" class="cc">YouTube</a>
+                    <img src="assets/images/Rb1036af1edf5d8113f3cacfa4bd5c95a.png" alt="youtube" width="30px"
+                        height="30px" class="">
+
+                </div>
+
+            </div>
+            <div class="col-9 borda2">
+                <div id="sobre">
+                    <h1>Sobre mim</h1>
+                    <p> Olá, meu nome é Mayron tenho 18 anos e atualmente estou cursando o último ano do ensino médio,
+                        também estou cursando TI para desenvolvimento de sites e apps! Nas minhas horas vagas gosto de
+                        sair, ler, assistir e jogar! Minha comida favorita é churrasco; meu lanche: pizza; meu livro: A
+                        granja dos bixos "Jeorge Orwell", super recomendo pois faz uma reflexão e uma crítica social
+                        muito forte! </p>
+                </div>
+                <div id="abilidades">
+                    <h1>Abilidades</h1>
+                    <p>Aprendizagem: facilidade de aprender em qualquer contexto da vida cotidiana.
+                        Autonomia: a capacidade que uma pessoa tem de decidir de maneira própria e independente. Permite
+                        que a pessoa não seja influenciada e coagida por terceiros.
+                        Bondade: a propensão de uma pessoa a ser boa e, consequentemente, realizar boas ações.
+                        Normalmente estes tendem a fazer o bem.
+                        Compaixão: são pessoas capazes de compreender e ser bondosas com os outros, compartilhando sua
+                        dor. Também pode se dirigir a si mesmo, então recebe o nome de autocompaixão.
+                        Compromisso: pessoa que atinge seus objetivos com entusiasmo e esforço.
+                        Eloquência: capacidades que algumas pessoas têm para se expressar corretamente de maneira
+                        verbal, independentemente do cenário que enfrentam. Elas não se deixam impedir por defeitos
+                        físicos ou psicológicos.
+                        Flexibilidade mental: podem se adaptar rapidamente às novas situações que surgem.
+                        Força: crucial para enfrentar todos os obstáculos que possam surgir pela frente. Refere-se tanto
+                        à força emocional e mental, como à física.
+                        Generosidade: tem a capacidade de compartilhar aquilo que possui com quem tem menos, sem pensar
+                        no próprio bem-estar.
+                        Honestidade: caracterizadas por não ter medo de dizer a verdade, são pessoas sinceras tanto com
+                        elas mesmas como com os outros. Tendem a gerar confiança.
+                        Humildade: aceitam as próprias forças e capacidades, mas sem ostentá-las.
+                        Lealdade: em relação à outras pessoas ou a uma causa específica, as pessoas leais têm um elevado
+                        nível de comprometimento e sacrifício a ela.
+                        Liderança: a liderança é a capacidade de guiar os outros para alcançar um objetivo em comum.
+                        Necessária nas pessoas que desejam serem líderes.
+                        Maturidade mental: qualidade de uma pessoa que indica sua capacidade de agir de maneira adequada
+                        e correta diante de diferentes situações sem, além disso, afetar negativamente as pessoas à sua
+                        volta.
+                        Otimismo: capacidade de ver, tanto à outras pessoas, como as situações de uma maneira positiva.
+                        Elas tendem a superar situações de fracasso, obtendo delas um aprendizado para o futuro.
+                        Oratória: qualidade de uma pessoa para falar corretamente diante de um grupo de ouvintes. Essas
+                        pessoas também tendem a ter grande eloquência.
+                        Paciência: qualidade de uma pessoa capaz de esperar alguém ou alguma coisa. Está intimamente
+                        ligada à força interior para reprimir as necessidades imediatas. Descubra aqui Como ter mais
+                        paciência.
+                        Perfeccionismo: essa nem sempre está ligada a uma capacidade positiva, pois ser uma pessoa muito
+                        perfeccionista pode atrasar e até impedir a entrega de trabalhos e projetos. No entanto, em sua
+                        medida certa, permite que uma pessoa busque aprimoramento tanto pessoal como profissional.
+                        Persistência: refere-se à constância nas ações para poder atingir os objetivos propostos. As
+                        pessoas com essa qualidade não se deixam vencer pelas adversidades que possam surgir.
+                        Prudência: a pessoa que possui essa qualidade tem a capacidade de analisar todas as
+                        possibilidades existentes diante de uma situação e agir da maneira mais favorável.
+                        Realista: ter uma noção adequada do ambiente, permite a pessoa que a possui, não se separe das
+                        condições do presente.
+                        Resiliência: tem a capacidade de superar circunstâncias traumáticas e de utilizar esses eventos
+                        como ensinamentos que o ajudam a seguir em frente. No seguinte artigo, você encontrará Como a
+                        resiliência se desenvolve.
+                        Respeito: a pessoa com essa qualidade reconhece que suas diferenças com outras pessoas não são
+                        nem melhores nem piores. Essa é uma qualidade essencial para a vida social de um indivíduo.
+                        Responsabilidade: os compromissos são assumidos levando em consideração as próprias capacidades,
+                        bem como aceitando as possíveis consequências que as ações a serem executadas podem gerar.
+                        Sensibilidade: permite que as pessoas mostrem suas emoções diante de estímulos externos.
+                        Serenidade: reflete a calma interior das pessoas diante de situações de estresse ou urgência.
+                        Essa qualidade está intimamente ligada ao autocontrole.
+                        Tenacidade: pessoa que possui um grande esforço para alcançar as coisas a que se propõe.
+                        Tolerância: essa qualidade permite que as pessoas aceitem as diferenças de outras pessoas,
+                        vendo-as como algo normal.
+                        Coragem: refere-se ao vigor que uma pessoa tem ao executar uma ação. As pessoas com essa
+                        qualidade conseguem superar seus medos e agem com decisão e firmeza.
+                        Versatilidade: pessoa com a capacidade de desempenhar diversas ações, papéis ou tarefas sem a
+                        necessidade de se limitar a uma apenas. Essa qualidade é muito procurada no local de trabalho.
+                        Aceitação: da realidade e de si mesmo. É importante diferenciar a aceitação da resignação. A
+                        aceitação consiste em deixar de lutar contra o que não cabe a nós mudar, mas trabalhar para
+                        melhorar o que está em nossas mãos.
+                        Gratidão: consiste em valorizar e agradecer tudo o que temos.
+                        Senso de humor: a capacidade de obter o lado divertido e espalhar alegria para os outros.
+                        Dignidade: respeitar os próprios direitos pelo simples fato de ser uma pessoa. Conecte-se com
+                        sua dignidade e aumente seu amor próprio.
+                        Entusiasmo: atitude positiva caracterizada pela motivação e alegria. </p>
+                </div>
+                <div id="formacao">
+                  <h1>Formação</h1>
+                  <p> Segundo grau incompleto (cursando), técnico em informática incompleto (cursando) </p> 
+                </div>
+                <div id="hobbies">
+                   <h1>Hobbies</h1>
+                   <p>Viajar;
+                        Ter um canal no youtube;
+                        Jogar carta com amigos;
+                        Praticar artes marciais;
+                        Ser adepto as palavras cruzadas;
+                        Estar em contato com a natureza;
+                        Visitar museus.
+                        Ir ao cinema;Ir ao cinema
+                        Pescar;
+                        Ir ao estádio de futebol;
+                        Assistir peças de teatro;
+                        Fazer aulas de teatro;
+                        Ler livros;ler livros
+                        Dançar balé;
+                        Acampar com os amigos;
+                        Fazer trilhas;
+                        Participar de corridas;
+                        Desenhar;desenhar
+                        Escrever poesias;
+                        Ouvir músicas;
+                        Dedicar-se a um voluntariado;
+                        Estudar;
+                        Cuidar de plantas;
+                        Jogar tênis;
+                        Andar de skate;andar de skate
+                        Praticar yoga e meditação;
+                        Fazer um curso de idiomas;
+                        Fotografar;
+                        Escrever para um blog;
+                        Pedalar;pedalar
+                        Tocar um instrumento musical;
+                        Fazer artesanato;
+                        Planejar eventos;
+                        Cozinhar;
+                        Decorar ambientes;
+                        Assistir ao pôr ou o nascer do sol;
+                        Jogar vôlei;jogar vôlei
+                        Surfar;
+                        Colecionar objetos;
+                        Fazer natação;
+                        Editar vídeo;
+                        Costurar e produzir os seus próprios looks;
+                        Escalar;
+                        Jogar futebol;jogar futebol
+                        Treinar musculação;
+                        Dançar;
+                        Ensinar;
+                        Maratonar séries;
+                        Jogar basquete;
+                        Empinar pipa.</p>
+
+                </div>
+                <div id="books"> 
+                   <h1> Books </h1>
+                   <p> A granja dos bixos "Jeorge Orwell", Uma Breve História do Tempo – Stephen Hawking
+                        Uma Comovente Obra de Espantoso Talento – Dave Eggers
+                        Muito Longe de Casa – Ishmael Beah
+                        Mau Começo – Lemony Snicket (Desventuras em Série)
+                        Uma Dobra no Tempo – Madeleine L’Engle
+                        Selected Stories, 1968-1994 – Alice Munro
+                        Alice – Lewis Carroll
+                        Todos os Homens do Presidente – Bob Woodward e Carl Bernstein
+                        As Cinzas de Angela: Memória – Frank McCourt
+                        Você está aí, Deus? Sou eu, Margaret – Judy Blume
+                        Bel Canto – Ann Patchett
+                        Amada – Toni Morrison
+                        Nascido para Correr – Christopher McDougall
+                        Breath, Eyes, Memory – Edwidge Danticat
+                        Artigo 22 – Joseph Heller
+                        A Fantástica Fábrica de Chocolate – Roald Dahl
+                        A Menina e o Porquinho – E. B. White
+                        O Décimo Primeiro Mandamento – Abraham Verghese
+                        A Coragem de Ser Imperfeito – Brené Brown
+                        Diário de Um Banana – Jeff Kinney
+                        Duna (Crônicas de Duna) – Frank Herbert
+                        Fahrenheit 451 – Ray Bradbury
+                        Medo e Delírio em Las Vegas – Hunter S. Thompson
+                        Garota Exemplar – Gillian Flynn
+                        Boa Noite, Lua – Margaret Wise Brown
+                        Grandes Esperanças – Charles Dickens
+                        Armas, Germes e Aço – Jared Diamond
+                        Harry Potter e a Pedra Filosofal – J. K. Rowling
+                        A Sangue Frio – Truman Capote
+                        Intérprete de Males – Jhumpa Lahiri
+                        Homem Invisível – Ralph Ellison
+                        Jimmy Corrigan: O Menino Mais Esperto do Mundo – Chris Ware
+                        Cozinha Confidencial – Anthony Bourdain
+                        O Fio da Vida – Kate Atkinson
+                        Uma Casa na Campina – Laura Ingalls Wilder
+                        Lolita – Vladimir Nabokov
+                        O Amor nos Tempos do Cólera – Gabriel Garcia Marquez
+                        Love Medicine
+                        Em Busca de Sentido – Viktor E. Frankl
+                        Eu Falar Bonito um Dia – David Sedaris
+                        Middlesex – Jeffrey Eugenides
+                        Os Filhos da Meia-Noite – Salman Rushdie
+                        Moneyball: O Homem que Mudou o Jogo – Michael Lewis
+                        Servidão Humana – William Somerset Maugham
+                        On The Road (Pé Na Estrada) – Jack Kerouac
+                        Out of Africa – Isak Dinesen
+                        Persépolis – Marjane Satrapi
+                        O Complexo de Portnoy – Philip Roth
+                        Orgulho e Preconceito – Jane Austen
+                        Primavera Silenciosa – Rachel Carson
+                        Matadouro 5 – Kurt Vonnegut
+                        Lincoln – Doris Kearns Goodwin
+                        A Época da Inocência – Edith Wharton
+                        As Incríveis Aventuras de Kavalier e Clay – Michael Chabon
+                        A Autobiografia de Malcolm X – Alex Haley
+                        A Menina Que Roubava Livros – Markus Zusak
+                        A Fantástica Vida Breve de Oscar Wao – Junot Diaz
+                        O Apanhador no Campo de Centeio – J. D. Salinger
+                        A Cor da Água: Tributo de um Negro a sua Mãe Branca – James McBride
+                        As Correções – Jonathan Franzen
+                        O Demônio na Cidade Branca – Erik Larson
+                        O Diário de Anne Frank – Anne Frank
+                        A Culpa É das Estrelas – John Green
+                        O Doador De Memórias: Quando Não Há Memórias, A Liberdade É Apenas Uma Ilusão – Lois Lowry
+                        A Bússola De Ouro – Philip Pullman
+                        O Grande Gatsby – F. Scott Fitzgerald
+                        O Conto da Aia – Margaret Atwood
+                        A Casa no Cantinho do Puff – A. A. Milne
+                        Jogos Vorazes – Suzanne Collins
+                        A Vida Imortal de Henrietta Lacks – Rebecca Skloot
+                        The Liars’ Club: A Memoir – Mary Karr
+                        O Ladrão de Raios (Percy Jackson e Os Olimpianos) – Rick Riordan
+                        O Pequeno Príncipe – Antoine de Saint-Exupéry
+                        O Longo Adeus – Raymond Chandler
+                        O Vulto das Torres: A Al-Qaeda e o Caminho até o 11/9 – Lawrence Wright
+                        O Senhor dos Anéis: A Sociedade do Anel – J. R. R. Tolkien
+                        O Homem que Confundiu Sua Mulher com Um Chapéu – Oliver Sacks
+                        Cozinhar: Uma História Natural Da Transformação – Michel Pollan
+                        Tudo Depende de Como Você Vê As Coisas – Norton Juster
+                        A Bíblia Envenenada – Barbara Kingsolver
+                        The Power Broker: Robert Moses and the Fall of New York – Robert A. Caro
+                        The Right Stuff – Tom Wolfe
+                        A Estrada – Cormac McCarthy
+                        A História Secreta – Donna Tartt
+                        O Iluminado – Stephen King
+                        O Estrangeiro – Albert Camus
+                        O Sol Também Se Levanta – Ernest Hemingway
+                        The Things They Carried – Tim O’Brien
+                        Uma Lagarta Muito Comilona – Eric Carle
+                        O Vento nos Salgueiros – Kenneth Grahame
+                        Crônica do Pássaro de Corda – Haruki Murakami
+                        O Mundo Segundo Garp – John Irving
+                        O Ano do Pensamento Mágico – Joan Didion
+                        O Mundo se Despedaça – Chinua Achebe
+                        O Sol É Para Todos – Harper Lee
+                        Invencível – Laura Hillenbrand
+                        Vale das Bonecas – Jacqueline Susann
+                        Where the Sidewalk Ends – Shel Silverstein
+                        Onde Vivem os Monstros – Maurice Sendak</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

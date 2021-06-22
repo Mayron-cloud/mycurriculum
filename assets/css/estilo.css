@@ -1,0 +1,60 @@
+.borda {
+    border: 2px solid blue;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.borda2 {
+    border-top:2px solid blue;
+    border-bottom:2px solid blue;
+    border-right:2px solid blue;
+}
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    
+    .bb {
+        width: 100%;
+        height: auto;
+    }
+    
+    @media (max-width:768px) {
+        .col-3 {
+            flex: 40%;
+        }
+    }
+    
+    @media (min-width:769px) and (max-width:999px) {
+      
+        .col-9 {
+            flex: 60%;
+        }
+    }
+    
+    .foto {
+        padding-bottom: 50px;
+    }
+
+    .borda3 {
+        border: 2px solid rgb(64, 138, 235);
+    }
+
+    .foto2 {
+        padding-top: 25px;
+    }
+
+    .cc {
+        font-size: 8px;
+    }
+
+    .botao {
+        border: 1px solid  rgb(64, 138, 235);
+        background-color: rgb(194, 232, 255);
+    }
+ 
