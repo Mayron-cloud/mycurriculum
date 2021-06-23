@@ -1,3 +1,8 @@
+.modo-noturno {
+    color: white;
+    background: black;
+}
+
 .borda {
     border: 2px solid blue;
     padding-top:50px;
@@ -57,4 +62,6 @@
         border: 1px solid  rgb(64, 138, 235);
         background-color: rgb(194, 232, 255);
     }
- 
+
+   
+    

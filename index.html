@@ -9,84 +9,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/estilo.css">
-    <script type="text/javascript">
+    <script src="assets/js/app.js"></script>
 
-
-        var exibirSobre = function () {
-            divSobre = document.querySelector("#sobre");
-            divAbilidades = document.querySelector("#abilidades");
-            divFormacao = document.querySelector("#formacao");
-            divHobbies = document.querySelector("#hobbies");
-            divBooks = document.querySelector("#books");
-
-            divSobre.style.display = "block";
-            divAbilidades.style.display = "none";
-            divFormacao.style.display = "none";
-            divHobbies.style.display = "none";
-            divBooks.style.display = "none";
-        }
-
-        var exibirAbilidades = function () {
-            divSobre = document.querySelector("#sobre");
-            divAbilidades = document.querySelector("#abilidades");
-            divFormacao = document.querySelector("#formacao");
-            divHobbies = document.querySelector("#hobbies");
-            divBooks = document.querySelector("#books");
-
-            divSobre.style.display = "none";
-            divAbilidades.style.display = "block";
-            divFormacao.style.display = "none";
-            divHobbies.style.display = "none";
-            divBooks.style.display = "none";
-        }
-
-        var exibirFormacao = function () {
-            divSobre = document.querySelector("#sobre");
-            divAbilidades = document.querySelector("#abilidades");
-            divFormacao = document.querySelector("#formacao");
-            divHobbies = document.querySelector("#hobbies");
-            divBooks = document.querySelector("#books");
-
-            divSobre.style.display = "none";
-            divAbilidades.style.display = "none";
-            divFormacao.style.display = "block";
-            divHobbies.style.display = "none";
-            divBooks.style.display = "none";
-        }
-
-        var exibirHobbies = function () {
-            divSobre = document.querySelector("#sobre");
-            divAbilidades = document.querySelector("#abilidades");
-            divFormacao = document.querySelector("#formacao");
-            divHobbies = document.querySelector("#hobbies");
-            divBooks = document.querySelector("#books");
-
-            divSobre.style.display = "none";
-            divAbilidades.style.display = "none";
-            divFormacao.style.display = "none";
-            divHobbies.style.display = "block";
-            divBooks.style.display = "none";
-        }
-
-        var exibirBooks = function () {
-            divSobre = document.querySelector("#sobre");
-            divAbilidades = document.querySelector("#abilidades");
-            divFormacao = document.querySelector("#formacao");
-            divHobbies = document.querySelector("#hobbies");
-            divBooks = document.querySelector("#books");
-
-            divSobre.style.display = "none";
-            divAbilidades.style.display = "none";
-            divFormacao.style.display = "none";
-            divHobbies.style.display = "none";
-            divBooks.style.display = "block";
-        }
-
-    </script>
 
 </head>
 
-<body>
+<body id="corpo">
 
     <div class="container">
         <div class="row">
@@ -99,7 +27,7 @@
                     <button onclick="exibirSobre()" class="botao">Sobre</button>
                 </div>
                 <div>
-                    <button onclick="exibirAbilidades()" class="botao">Abilidades</button>
+                    <button onclick="exibirAbilidades()" class="botao">Habilidades</button>
                 </div>
                 <div>
                     <button onclick="exibirFormacao()" class="botao">Formação</button>
@@ -120,6 +48,9 @@
                     <img src="assets/images/Rb1036af1edf5d8113f3cacfa4bd5c95a.png" alt="youtube" width="30px"
                         height="30px" class="">
 
+                    <button onclick="modoNoturno()" class="botao cc">DarkMode</button>
+
+
                 </div>
 
             </div>
@@ -132,8 +63,8 @@
                         granja dos bixos "Jeorge Orwell", super recomendo pois faz uma reflexão e uma crítica social
                         muito forte! </p>
                 </div>
-                <div id="abilidades">
-                    <h1>Abilidades</h1>
+                <div id="habilidades">
+                    <h1>Habilidades</h1>
                     <p>Aprendizagem: facilidade de aprender em qualquer contexto da vida cotidiana.
                         Autonomia: a capacidade que uma pessoa tem de decidir de maneira própria e independente. Permite
                         que a pessoa não seja influenciada e coagida por terceiros.
@@ -203,12 +134,12 @@
                         Entusiasmo: atitude positiva caracterizada pela motivação e alegria. </p>
                 </div>
                 <div id="formacao">
-                  <h1>Formação</h1>
-                  <p> Segundo grau incompleto (cursando), técnico em informática incompleto (cursando) </p> 
+                    <h1>Formação</h1>
+                    <p> Segundo grau incompleto (cursando), técnico em informática incompleto (cursando) </p>
                 </div>
                 <div id="hobbies">
-                   <h1>Hobbies</h1>
-                   <p>Viajar;
+                    <h1>Hobbies</h1>
+                    <p>Viajar;
                         Ter um canal no youtube;
                         Jogar carta com amigos;
                         Praticar artes marciais;
@@ -260,9 +191,9 @@
                         Empinar pipa.</p>
 
                 </div>
-                <div id="books"> 
-                   <h1> Books </h1>
-                   <p> A granja dos bixos "Jeorge Orwell", Uma Breve História do Tempo – Stephen Hawking
+                <div id="books">
+                    <h1> Books </h1>
+                    <p> A granja dos bixos "Jeorge Orwell", Uma Breve História do Tempo – Stephen Hawking
                         Uma Comovente Obra de Espantoso Talento – Dave Eggers
                         Muito Longe de Casa – Ishmael Beah
                         Mau Começo – Lemony Snicket (Desventuras em Série)
